@@ -1,4 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-<div style="text-align: center;">
-<h1>Your Title Text</h1>
-</div>
+header {
+    font-family: 'Abril Fatface';
+    text-align: center;
+}
+body {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+background-color: #eee;
+margin: 20px;
+box-shadow: 5px;
+border-color: #eee;
+}
+h2 {
+    font-family: 'Roboto Slab';
+}
+div {
+    display: block;
+    width: 700px;
+    margin: auto;
+    padding: 1px;
+    background-color: white;
+    border: 10em;
+    border-radius: 1.5%;
+    border-color: #eee;
+   box-shadow: 5px;
+   color: #ddd box-shadow
+}
+div.date{
+    text-align: left;
+}
+h5 {
+    color: #dd3232;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color:#777
+}
+li {
+    color: #777;
+    display: inline-block;
+    padding: 1px 1px 1px 1px;
+}
+nav {
+    border: 1em;
+    border-color: #eee;
+    text-align: center;
+
+}
+.more-articles{
+    display: inline-block;
+    column-count: 2;
+    column-width: 10px;
+}
+a{
+    color: #777;
+    text-decoration: none;
+}
